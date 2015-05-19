@@ -1,0 +1,15 @@
+Package: Rre2
+Type: Package
+Title: Wrapper for the re2 regular expression library.
+Version: 0.1
+Date: 2015-05-18
+Authors@R: c(
+    person("John", "Didion", , "code@didion.net", c("aut", "cre"))
+    )
+Description: The re2 C++ library is an incredibly fast regular expression matching
+    library. This package provides an R wrapper (via Rcpp). Regular expressions are
+    compiled by creating instances of the RegExpRE2 class, which has the same API
+    as defined by the LikeThis package.
+License: GPL (>= 2)
+Imports: methods, Rcpp (>= 0.11.5)
+LinkingTo: Rcpp
